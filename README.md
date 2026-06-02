@@ -10,6 +10,9 @@ secrets management, IAM, and access control platforms at Coinbase and
 Salesforce.
 
 ## Work Samples
+
+[Secrets Vault Documentation Sample (in progress)](https://github.com/RenaVerbena/RenaVerbena/tree/main/writing-samples)
+
 Most of my published work is behind enterprise access controls 
 (Coinbase Security Platform Engineering, Salesforce Security). Available 
 to walk through samples and discuss approach in conversation.
