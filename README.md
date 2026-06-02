@@ -1,16 +1,19 @@
-## Hi there 👋
+# Jorena Collins
 
-<!--
-**RenaVerbena/RenaVerbena** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Lead Technical Writer & Content Strategist specializing in developer 
+documentation, security, and secrets management.
 
-Here are some ideas to get you started:
+## Background
+12+ years writing documentation for complex technical products, with deep 
+focus on developer adoption of security infrastructure. Recent work spans 
+secrets management, IAM, and access control platforms at Coinbase and 
+Salesforce.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Work Samples
+Most of my published work is behind enterprise access controls 
+(Coinbase Security Platform Engineering, Salesforce Security). Available 
+to walk through samples and discuss approach in conversation.
+
+## Connect
+- LinkedIn: https://linkedin.com/in/jorena-jones-collins
+- Email: jorena.collins@gmail.com
