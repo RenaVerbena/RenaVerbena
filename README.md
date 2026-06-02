@@ -1,7 +1,7 @@
 # Jorena Collins
 
-Lead Technical Writer & Content Strategist specializing in developer 
-documentation, security, and secrets management.
+Lead Technical Writer & Content Strategist specializing in developer documentation, security infrastructure,
+identity and access management, and secrets management.
 
 ## Background
 12+ years writing documentation for complex technical products, with deep 
