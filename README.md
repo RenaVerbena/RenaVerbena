@@ -11,7 +11,7 @@ Salesforce.
 
 ## Work Samples
 
-[Secrets Vault Documentation Sample (in progress)](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md)
+[Secrets Vault Documentation Sample](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md)
 
 Most of my published work is behind enterprise access controls 
 (Coinbase Security Platform Engineering, Salesforce Security). Available 
