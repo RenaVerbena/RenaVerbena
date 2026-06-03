@@ -66,7 +66,7 @@ Get started with Secrets Vault.
 3.  **Read the secret** - Retrieve secrets in your application.
 
 ### Example: Write and read a secret
-#### Bash
+
 ```bash
 # Authenticate (returns a token)
 curl -X POST [https://vault.example.com/v1/auth/kubernetes/login](https://vault.example.com/v1/auth/kubernetes/login) \
@@ -82,6 +82,3 @@ curl -X POST [https://vault.example.com/v1/secret/data/myapp/config](https://vau
 curl -X GET [https://vault.example.com/v1/secret/data/myapp/config](https://vault.example.com/v1/secret/data/myapp/config) \
   -H "X-Vault-Token: s.1234abcd..."
 ```
-
-
-
