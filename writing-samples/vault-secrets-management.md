@@ -82,3 +82,7 @@ curl -X POST [https://vault.example.com/v1/secret/data/myapp/config](https://vau
 curl -X GET [https://vault.example.com/v1/secret/data/myapp/config](https://vault.example.com/v1/secret/data/myapp/config) \
   -H "X-Vault-Token: s.1234abcd..."
 ```
+
+## 3. Onboarding and Configuring Access
+
+(coming soon)
