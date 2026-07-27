@@ -18,8 +18,8 @@ secrets management.
 - [Boltline Help Center](https://help.boltline.com) - complete product
   documentation site (Docusaurus)
 - [Secrets Vault Documentation Sample](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md)
-- [VA Digital Product Marketplace](https://digital.va.gov/marketplace) -
-  selected product catalog entries
+- [VA Digital Product Marketplace](https://digital.va.gov/marketplace/saas-catalog/) -
+  select product catalog entries
 
 Most of my published work is behind enterprise access controls
 (Coinbase Security Platform Engineering, Salesforce Security). Available
