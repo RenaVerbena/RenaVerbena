@@ -10,7 +10,7 @@ documentation systems for scientific, security, and developer products.
 structured: editing PhD physicists' rough drafts for a high-performance
 computing simulation platform, preparing scientific research proposals
 for DOE, NSF, and DOC, and building editorial standards for security
-engineering organizations at Coinbase and Salesforce. I coach engineers
+engineering organizations like Coinbase and Salesforce. I coach engineers
 and writers to become stronger authors through document reviews,
 template use, and writing clinics. I also build AI-assisted writing and 
 editing workflows: prompt frameworks, automated quality checks, and content 
@@ -21,11 +21,11 @@ and secrets management.
 ## Work Samples
 
 My most recent work is behind enterprise access controls at Coinbase
-Security Platform Engineering and Salesforce Security. Highlights:
+Security Platform Engineering, Algonquin Power, and Salesforce Security. Highlights:
 editorial standards and AI-assisted documentation systems, developer
 guidance for frictionless implementation of security controls, content
 optimization so support bots and AI assistants surface the right
-answer, and a documentation health dashboard that gave leadership
+answer, and a documentation health dashboard giving leadership
 visibility into content ownership and freshness. I'm glad to discuss my
 editorial approach and documentation processes. The security specifics
 stay confidential. The samples below are public.
