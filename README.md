@@ -15,7 +15,7 @@ secrets management.
 
 ## Work Samples
 
-- [Boltline Help Center](https://help.boltline.com) - complete product
+- [Boltline Help Center](https://help.boltline.com/category/boltline/index.html) - complete product
   documentation site (Docusaurus)
 - [Secrets Vault Documentation Sample](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md)
 - [VA Digital Product Marketplace](https://digital.va.gov/marketplace/saas-catalog/) -
