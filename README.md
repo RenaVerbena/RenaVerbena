@@ -12,10 +12,10 @@ computing simulation platform, preparing scientific research proposals
 for DOE, NSF, and DOC, and building editorial standards for security
 engineering organizations at Coinbase and Salesforce. I coach engineers
 and writers to become stronger authors through document reviews,
-templates, and writing clinics. I also build AI-assisted writing and
-editing workflows: prompt frameworks, LLM quality checks, and content
+template use, and writing clinics. I also build AI-assisted writing and 
+editing workflows: prompt frameworks, automated quality checks, and content 
 structured so AI systems retrieve and surface it accurately. Deep focus
-areas include security infrastructure, identity and access management,
+areas include scientific and research content, security infrastructure, identity and access management,
 and secrets management.
 
 ## Work Samples
