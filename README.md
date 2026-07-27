@@ -62,3 +62,7 @@ during my tenure; links below are the version I owned.
 ## Connect
 - LinkedIn: https://linkedin.com/in/jorena-jones-collins
 - Email: jorena.collins@gmail.com
+
+## Recommendations
+- [LinkedIn Recommendations](https://www.linkedin.com/in/jorena-jones-collins/details/recommendations/)
+
