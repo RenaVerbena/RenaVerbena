@@ -10,8 +10,6 @@ If you are looking for instructions on how to manage your keys and secrets using
 > To determine which secret types belong in Secrets Vault versus HSM, see
 > [Secret Storage Guidance](link).
 
-The Secrets Vault is our customized version of HashiCorp Vault. We have features and automation that are different from what you'll find on the HashiCorp Vault website.
-
 Please use this documentation to onboard your service. If you get stuck or have questions, contact `#support-channel` on Slack.
 
 ---
