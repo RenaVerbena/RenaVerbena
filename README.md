@@ -1,34 +1,45 @@
 # Jorena Collins
 
 Lead Technical Writer, Editor, & Content Strategist specializing in
-technical writing and editing, editorial standards, and AI-assisted
-documentation systems for scientific, security, and developer products.
+knowledge management, content strategy and design, editorial standards,
+and AI-assisted knowledge systems for scientific, security, and
+developer products.
 
 ## Professional Background
 
 12+ years making complex technical material clear, accurate, and well
-structured: editing PhD physicists' rough drafts for a high-performance
-computing simulation platform, preparing scientific research proposals
-for DOE, NSF, and DOC, and building editorial standards for security
-engineering organizations like Coinbase and Salesforce. I coach engineers
-and writers to become stronger authors through document reviews,
-template use, and writing clinics. I also build AI-assisted writing and 
-editing workflows: prompt frameworks, automated quality checks, and content 
-structured so AI systems retrieve and surface it accurately. Deep focus
-areas include scientific and research content, security infrastructure, identity and access management,
-and secrets management.
+structured. My specialty is optimizing the documentation and knowledge
+ecosystem so users can easily find, understand, and use the right
+information, whether they navigate directly or rely on AI to surface
+answers. Recent work includes building knowledge management systems and
+editorial standards for security engineering organizations like
+Coinbase and Salesforce, and overhauling cybersecurity policies,
+standards, procedures, and guidelines for a regulated energy utility. I
+build AI-assisted writing and editing workflows: prompt frameworks,
+automated quality checks, and content structured so AI systems retrieve
+and surface it accurately. I coach engineers and writers to become
+stronger authors through document reviews, template use, and writing
+clinics. Earlier work spans scientific and research content: editing
+PhD physicists' rough drafts for a high-performance computing
+simulation platform and preparing scientific research proposals for
+DOE, NSF, and DOC. Deep focus areas include knowledge management and
+content strategy, security infrastructure, identity and access
+management, secrets management, and scientific and research content.
 
 ## Work Samples
 
 My most recent work is behind enterprise access controls at Coinbase
-Security Platform Engineering, Algonquin Power, and Salesforce Security. Highlights:
-editorial standards and AI-assisted documentation systems, developer
-guidance for frictionless implementation of security controls, content
-optimization so support bots and AI assistants surface the right
-answer, and a documentation health dashboard giving leadership
-visibility into content ownership and freshness. I'm glad to discuss my
-editorial approach and documentation processes. The security specifics
-stay confidential. The samples below are public.
+Security Platform Engineering, Algonquin Power, and Salesforce Security.
+
+**Highlights:**
+knowledge management frameworks, editorial standards, AI-assisted
+documentation systems, developer guidance for frictionless
+implementation of security controls, content optimization so support
+bots and AI assistants surface the right answer, and a documentation
+health dashboard giving leadership visibility into content ownership
+and freshness. I'm glad to discuss my editorial approach and
+documentation processes. The security specifics stay confidential. The
+samples below are public.
 
 ### VSim (Tech-X Corporation)
 
