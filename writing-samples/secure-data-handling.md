@@ -2,7 +2,9 @@
 
 ## Overview
 
-Organizations need to practice secure data handling not only to meet regulatory requirements, but to protect the people whose information they hold. A single breach can undo years of customer trust, so sensitive information must be protected from the moment it's created until the moment it's destroyed. Every stage of the data lifecycle is covered: collection, classification, storage, access, transmission, usage, sharing, and retention and disposal. Without consistent controls at each stage, organizations expose themselves to data breaches, regulatory penalties, and reputational damage.
+Organizations need to practice secure data handling not only to meet regulatory requirements, but to protect the people whose information they hold. A single breach can undo years of customer trust, so sensitive information must be protected from the moment it's created until the moment it's destroyed. Without consistent controls at each stage of the data lifecycle, organizations expose themselves to data breaches, regulatory penalties, and reputational damage.
+
+This article describes the controls that protect data at each stage of its lifecycle: collection, classification, storage, access, transmission, usage, sharing, and retention and disposal. It also covers logging and monitoring, the most common handling mistakes, who is responsible for what, and how these controls map to major regulations and frameworks.
 
 ## Scope
 
