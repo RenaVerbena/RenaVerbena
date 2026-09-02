@@ -62,13 +62,15 @@ during my tenure; links below are the version I owned.
 
 ### More Samples
 
+- [Secure Data Handling Guidelines](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/secure-data-handling.md) -
+  demonstration piece covering lifecycle-based data protection
+  controls
+- [Secrets Vault Documentation Sample](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md) -
+  demonstration piece written for a fictitious secrets vault
 - [Boltline Help Center](https://help.boltline.com/category/boltline/index.html) -
   complete product documentation site, sole-authored (Docusaurus)
 - [VA Digital Product Marketplace](https://digital.va.gov/marketplace/saas-catalog/) -
   selected product catalog entries
-- [Secrets Vault Documentation Sample](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md) -
-  demonstration piece written for a fictitious secrets vault, showing my
-  approach to developer security documentation
 
 ## Connect
 - LinkedIn: https://linkedin.com/in/jorena-jones-collins
