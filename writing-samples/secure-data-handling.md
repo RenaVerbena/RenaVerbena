@@ -80,7 +80,7 @@ Organizations should log access to sensitive datasets and retain those logs in a
 
 ## Common risks to avoid
 
-Many of the most serious data security incidents are caused by preventable mistakes. Most trace back to habit and to gaps in security awareness. The following patterns represent the most frequently seen failure modes in organizational data handling:
+Many of the most serious data security incidents are caused by preventable mistakes. Most trace back to bad habits and to gaps in security awareness (training). The following patterns represent the most frequently seen failure modes in organizational data handling:
 
 - Collecting more data than is necessary for the business purpose
 - Granting users broader permissions than their role or task requires
