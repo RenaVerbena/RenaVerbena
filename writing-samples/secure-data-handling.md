@@ -115,8 +115,8 @@ Organizations should confirm which of these apply to their operations and align 
 
 ## Related topics
 
-- Data Classification Policy (link)
-- Access Control Management (link)
-- Encryption Standards (link)
-- Incident Response Procedures (link)
-- Secure Development Practices (link)
+- Data Classification Policy
+- Access Control Management
+- Encryption Standards
+- Incident Response Procedures
+- Secure Development Practices
