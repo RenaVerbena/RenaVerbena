@@ -17,15 +17,6 @@ work also includes AI-assisted writing and editing workflows, prompt
 frameworks, automated quality checks, and content structured for reliable
 retrieval.
 
-My work spans enterprise software, security engineering, and scientific
-computing. Projects include documentation and knowledge systems at Coinbase
-and Salesforce; cybersecurity policies, standards, procedures, and guidelines
-for a regulated energy utility; and documentation for a high-performance
-computing simulation platform. Earlier work includes editing PhD physicists'
-technical drafts and preparing research proposals for DOE, NSF, and DOC.
-Technical focus areas include identity and access management, secrets
-management, and scientific software.
-
 ## Work Samples
 
 My most recent work is behind enterprise access controls at Coinbase
