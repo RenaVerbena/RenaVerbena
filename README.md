@@ -1,9 +1,11 @@
 # Jorena Collins
 
-Lead Technical Writer, Editor, & Content Strategist specializing in
-knowledge management, content strategy and design, editorial standards,
-and AI-assisted knowledge systems for scientific, security, and
-developer products.
+**Content Strategy & Governance | Program Management | Technical Writing**
+
+I lead documentation and knowledge management programs, from strategy and
+planning through publication and ongoing governance. My work combines
+hands-on technical writing, UX principles, and AI-assisted knowledge
+systems for enterprise software, security, and scientific products.
 
 ## Professional Background
 
