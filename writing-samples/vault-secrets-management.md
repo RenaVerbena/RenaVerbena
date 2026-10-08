@@ -47,6 +47,8 @@ Secrets Vault is our internal secrets management service built on HashiCorp Vaul
 * Multiple authentication methods supported
 * High availability across regions
 
+This procedure covers static secrets stored with KV v2. Writing a new KV value does not rotate or revoke the credential in its issuing system.
+
 ---
 
 ## 2. Quickstart
@@ -114,7 +116,7 @@ A successful response includes a `client_token`. Use that value in the `X-Vault-
 
 ## 4. Writing Secrets to Vault
 
-Write secrets as a JSON object under `data`. Each write creates a new version of the secret at that path; previous versions are retained.
+Write secrets as a JSON object under `data`. Each write creates a new version of the secret at that path. Previous versions are retained up to the configured version limit; exceeding that limit permanently removes the oldest versions.
 
 ```bash
 curl -X POST https://vault.example.com/v1/secret/data/myapp/config \
@@ -149,7 +151,7 @@ The secret values are returned under `data.data`. To read a specific version, ad
 
 ## 6. Updating or Deleting Secret Paths
 
-**Update a secret.** Writing to an existing path creates a new version. Use the same `POST` request shown in [Writing Secrets to Vault](#4-writing-secrets-to-vault). Vault keeps prior versions, so an accidental overwrite can be recovered.
+**Update a secret.** Writing to an existing path creates a new version. Use the same `POST` request shown in [Writing Secrets to Vault](#4-writing-secrets-to-vault). Recovery from an accidental overwrite depends on whether the required version is still retained and has not been permanently destroyed.
 
 **Delete the latest version (soft delete).** The data is hidden but can be undeleted.
 
@@ -158,15 +160,15 @@ curl -X DELETE https://vault.example.com/v1/secret/data/myapp/config \
   -H "X-Vault-Token: $VAULT_TOKEN"
 ```
 
-**Permanently destroy all versions.** Use this only when a secret has been rotated and the old values must not be recoverable.
+**Permanently delete a retired secret path and all versions.** Use this only when the entire path is being retired. This operation also deletes the current version; it is not a way to remove only old versions after rotation.
+
+> [!WARNING]
+> Destroying metadata removes every version of the secret and cannot be undone. Confirm that no running service still depends on the path before you do this.
 
 ```bash
 curl -X DELETE https://vault.example.com/v1/secret/metadata/myapp/config \
   -H "X-Vault-Token: $VAULT_TOKEN"
 ```
-
-> [!WARNING]
-> Destroying metadata removes every version of the secret and cannot be undone. Confirm that no running service still depends on the path before you do this.
 
 ---
 

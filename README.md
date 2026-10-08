@@ -32,6 +32,12 @@ and freshness. I'm glad to discuss my editorial approach and
 documentation processes. The security specifics stay confidential. The
 samples below are public.
 
+### Content Strategy and UX
+
+- [Designing content people (and AI) can find, understand, and trust](writing-samples/designing-content-for-people-and-ai.md) -
+  a practical guide to content structure, reuse, metadata, and governance
+  for readers and AI applications, using the connected samples below.
+
 ### Content Governance Examples
 
 These connected fictional examples show how a standard relates to guidance
