@@ -17,7 +17,7 @@ For actual changes to this portfolio, see the [GitHub revision history](https://
 | Documentation coverage | One standard, one set of handling guidelines, and one service procedure |
 | Revisions in the example workflow | 3 |
 | Approvals in the example workflow | 0 |
-| Example workflow status | Awaiting document-owner review (fictional) |
+| Example workflow status | Awaiting approval |
 | Control implementation and effectiveness | Not assessed by this documentation example |
 
 ## Document owners
@@ -36,9 +36,9 @@ The records below model revisions awaiting approval in the fictional workflow. M
 
 | Record | Document | Proposed change | Example workflow status |
 | --- | --- | --- | --- |
-| REV-001 | [Standard 1234](security-standard-1234.md) | Introduce the fictional standard and shared governance note. | Awaiting approval (example). |
-| REV-002 | [Secure Data Handling](secure-data-handling.md) | Add the shared governance note. Existing guidance remains unchanged. | Awaiting approval (example). |
-| REV-003 | [Secrets Vault](vault-secrets-management.md) | Connect existing standard and storage references to the new standard; add the shared governance note. Existing procedures remain unchanged. | Awaiting approval (example). |
+| REV-001 | [Standard 1234](security-standard-1234.md) | Introduce the fictional standard and shared governance note. | Awaiting approval |
+| REV-002 | [Secure Data Handling](secure-data-handling.md) | Add the shared governance note. Existing guidance remains unchanged. | Awaiting approval |
+| REV-003 | [Secrets Vault](vault-secrets-management.md) | Connect existing standard and storage references to the new standard; add the shared governance note. Existing procedures remain unchanged. | Awaiting approval |
 
 ### Example approval and publication records
 
@@ -46,9 +46,9 @@ The version field identifies the exact reviewed document, such as an immutable G
 
 | Record | Reviewed version | Approval evidence | Release date in example |
 | --- | --- | --- | --- |
-| REV-001 | Awaiting review | Pending in example | Not scheduled |
-| REV-002 | Awaiting review | Pending in example | Not scheduled |
-| REV-003 | Awaiting review | Pending in example | Not scheduled |
+| REV-001 | Not yet reviewed | Pending in example | Not scheduled |
+| REV-002 | Not yet reviewed | Pending in example | Not scheduled |
+| REV-003 | Not yet reviewed | Pending in example | Not scheduled |
 
 ## Recording a revision
 

@@ -11,7 +11,7 @@ This standard defines the requirements for storing, accessing, and maintaining s
 | Document owner | Security Governance Lead (example role) |
 | Audience | Service owners, engineers, and security reviewers |
 | Portfolio status | Published example |
-| Example workflow status | Awaiting control-owner approval (fictional) |
+| Example workflow status | Awaiting approval |
 | Effective date in example | Set after fictional approval |
 | Review cycle | Quarterly after approval, and when control requirements or supported services change |
 

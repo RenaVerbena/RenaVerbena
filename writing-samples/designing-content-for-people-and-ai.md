@@ -8,13 +8,13 @@ The connected examples below use a fictional Secrets Vault service and security 
 
 **On this page**
 
-- [Start with the reader's decision](#start-with-the-decision-the-reader-needs-to-make)
+- [Start with the decision the reader needs to make](#start-with-the-decision-the-reader-needs-to-make)
 - [Keep context close to the action](#keep-context-close-to-the-action)
-- [Reuse content without losing meaning](#reuse-content-without-losing-its-meaning)
-- [Terminology, taxonomy, ontology, and knowledge graphs](#give-content-a-shared-vocabulary-and-structure)
-- [Make metadata useful](#make-metadata-useful-to-the-workflow)
-- [Connect ownership and approval](#keep-ownership-and-approval-connected-to-the-content)
-- [Evaluate what people and AI receive](#check-what-people-and-ai-actually-receive)
+- [Reuse content without losing its meaning](#reuse-content-without-losing-its-meaning)
+- [Give content a shared vocabulary and structure](#give-content-a-shared-vocabulary-and-structure)
+- [Make metadata useful to the workflow](#make-metadata-useful-to-the-workflow)
+- [Keep ownership and approval connected to the content](#keep-ownership-and-approval-connected-to-the-content)
+- [Check what people and AI actually receive](#check-what-people-and-ai-actually-receive)
 
 ## Start with the decision the reader needs to make
 
@@ -60,7 +60,7 @@ These concepts solve different problems. Use the ones that support your readers 
 | Element | Meaning and example |
 | --- | --- |
 | **Semantically enriched modular content** | Self-contained, reusable content components with metadata describing their meaning, purpose, and relationships. A role-request procedure might identify its audience, applicable service, prerequisites, and governing control. |
-| **Metadata** | Structured information about content, such as its identifier, type, audience, owner, status, and review date. A field such as `content_type: procedure` describes what the content is; it does not establish that the procedure is accurate. |
+| **Metadata** | Structured information about content, such as its identifier, type, audience, owner, status, and review date. A field such as `content_type: procedure` describes what the content is. |
 | **Terminology** | A managed vocabulary of preferred terms, definitions, synonyms, abbreviations, and deprecated terms. Define “service owner” and “document owner” separately so their responsibilities remain clear. |
 | **Taxonomy** | Defined categories and subcategories for organizing and labeling content. A product documentation hierarchy might group quickstarts under Get started, task instructions under User guides, and deeper explanations under Concepts and architecture. |
 | **Ontology** | An explicit model of domain concepts, their characteristics, and relationships. It defines types such as Service and Procedure, attributes such as version and review date, and connections such as **applies to**, **supports**, and **requires**. |
@@ -126,7 +126,7 @@ Descriptive hyperlinks communicate connections to readers. To make the relations
 
 ### Use relationships to support a specific experience
 
-A content delivery system could use product version, role, and prerequisite relationships to select an applicable, approved procedure and its supporting information. Define that selection behavior and validate the result. An ontology alone does not assemble content or turn Markdown files into a database.
+A content delivery system could use product version, role, and prerequisite relationships to select an applicable, approved procedure and its supporting information. Define that selection behavior and validate the result. The ontology supplies the relationships, and the delivery system still has to be built to use them.
 
 For search and AI, relationships can supply context across documents, such as which control governs a task and which service the task applies to. They can support [retrieval-augmented generation (RAG)](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview), which supplies retrieved source material to a language model. Semantic search can also work without an ontology: [embedding-based search](https://learn.microsoft.com/en-us/azure/search/vector-search-overview) can retrieve conceptually similar content.
 
@@ -160,7 +160,7 @@ The [revision register](https://github.com/RenaVerbena/RenaVerbena/blob/main/wri
 
 If storage eligibility changes, review the standard, the procedure's restrictions, and related guidance together. Record approval against the exact reviewed version, then track publication and the next review trigger.
 
-A recent edit date alone does not establish accuracy. Documentation approval also does not prove that a service enforces the documented control.
+Track the last review date separately from the last edit date. Documentation approval does not prove that a service enforces the documented control.
 
 ## Check what people and AI actually receive
 
@@ -176,5 +176,5 @@ Use concrete checks:
 - **Incomplete evidence:** If the retrieved passage omits eligibility, does the system seek the missing source or acknowledge that it cannot determine suitability?
 - **Change propagation:** After a rule changes, do affected pages and retrieved answers reflect the approved revision?
 
-For people, trust grows from clear guidance and visible accountability. For AI applications, those same signals must become explicit source-selection and validation rules. Neither polished prose nor extensive metadata can replace checking the answer against the task.
+For people, trust grows from clear guidance and visible accountability. For AI applications, those same signals must become explicit source-selection and validation rules. Either way, the last step is checking the answer against the task.
 
