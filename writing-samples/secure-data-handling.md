@@ -120,3 +120,11 @@ Organizations should confirm which of these apply to their operations and align 
 - Encryption Standards
 - Incident Response Procedures
 - Secure Development Practices
+
+---
+
+## Document governance
+
+This document supports [Control SEC-1234](security-standard-1234.md#control-sec-1234) and is governed by formal change control. Every revision must be approved by the [document owner](security-controls-health-dashboard.md#document-owners) and recorded in the [Security Controls Health Dashboard](security-controls-health-dashboard.md#revision-register) before publication. The dashboard maintains the revision and approval history for this documentation set.
+
+*Control SEC-1234 and its governance records are fictional portfolio examples.*

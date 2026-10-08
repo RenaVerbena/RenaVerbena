@@ -4,11 +4,11 @@ If you are looking for instructions on how to manage your keys and secrets using
 
 > [!IMPORTANT]
 > Do not store external-customer secrets in Secrets Vault.
-> Per standard #1234, HSM-required secrets must be stored in the HSM service,
+> Per [Standard 1234](security-standard-1234.md#storage-eligibility), HSM-required secrets must be stored in the HSM service,
 > where key material is protected by hardware security modules.
 >
 > To determine which secret types belong in Secrets Vault versus HSM, see
-> [Secret Storage Guidance](#8-additional-resources).
+> [secret storage eligibility requirements](security-standard-1234.md#storage-eligibility).
 
 Use this documentation to onboard your service. If you get stuck or have questions, contact `#support-channel` on Slack.
 
@@ -184,8 +184,16 @@ Remove access when a service is decommissioned or when a team no longer owns it.
 
 ## 8. Additional Resources
 
-* Secret Storage Guidance: which secret types belong in Secrets Vault versus the HSM service (internal link)
-* Standard #1234, secret storage requirements (internal link)
+* [Secret storage eligibility requirements](security-standard-1234.md#storage-eligibility): which secret types belong in Secrets Vault versus the HSM service.
+* [Standard 1234: Secret Storage and Handling](security-standard-1234.md): requirements for the example service.
 * [HashiCorp Vault KV secrets engine, version 2](https://developer.hashicorp.com/vault/docs/secrets/kv/kv-v2)
 * [HashiCorp Vault Kubernetes auth method](https://developer.hashicorp.com/vault/docs/auth/kubernetes)
 * Support: `#support-channel` on Slack
+
+---
+
+## Document governance
+
+This document supports [Control SEC-1234](security-standard-1234.md#control-sec-1234) and is governed by formal change control. Every revision must be approved by the [document owner](security-controls-health-dashboard.md#document-owners) and recorded in the [Security Controls Health Dashboard](security-controls-health-dashboard.md#revision-register) before publication. The dashboard maintains the revision and approval history for this documentation set.
+
+*Control SEC-1234 and its governance records are fictional portfolio examples.*

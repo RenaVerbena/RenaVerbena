@@ -68,7 +68,8 @@ during my tenure; links below are the version I owned.
 - [Secrets Vault Documentation Sample](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md) -
   demonstration piece written for a fictitious secrets vault
 - [Boltline Help Center](https://help.boltline.com/category/boltline/index.html) -
-  complete product documentation site, sole-authored (Docusaurus)
+  complete product documentation site (Docusaurus). The help
+  center recently moved behind a login; the link is retained for reference.
 - [VA Digital Product Marketplace](https://digital.va.gov/marketplace/saas-catalog/) -
   selected product catalog entries
 
