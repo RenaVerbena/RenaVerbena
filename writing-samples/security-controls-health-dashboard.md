@@ -2,19 +2,22 @@
 
 This example dashboard connects a security control to its documentation, accountable owners, and revision records. Use it to find who can approve a change and whether the affected documents are ready for publication.
 
-> **Fictional portfolio example.** Entries below describe proposed changes to this documentation set. They are pending review, not evidence of real organizational approval or control effectiveness. This register begins with the proposed first sprint; earlier GitHub revisions have not been backfilled.
+> **Published portfolio example.** The control, owner roles, and revision records are fictional. Pending approvals and release dates describe the example workflow; these portfolio pages are published.
+
+For actual changes to this portfolio, see the [GitHub revision history](https://github.com/RenaVerbena/RenaVerbena/commits/main/).
 
 ## Control overview
 
 | Field | Current record |
 | --- | --- |
+| Portfolio status | Published example |
 | Control | [SEC-1234: Protected storage and handling of service secrets](security-standard-1234.md#control-sec-1234) |
 | Standard | [Standard 1234: Secret Storage and Handling](security-standard-1234.md) |
 | Control owner | Security Governance Lead (example role) |
 | Documentation coverage | One standard, one set of handling guidelines, and one service procedure |
-| Proposed revisions | 3 |
-| Recorded approvals | 0 |
-| Documentation readiness | Pending owner review |
+| Revisions in the example workflow | 3 |
+| Approvals in the example workflow | 0 |
+| Example workflow status | Awaiting document-owner review (fictional) |
 | Control implementation and effectiveness | Not assessed by this documentation example |
 
 ## Document owners
@@ -29,23 +32,23 @@ Owners below are illustrative roles. In an operational register, each role would
 
 ## Revision register
 
-Maintain a separate entry for each document revision. Retain earlier entries when new revisions are added so that the change and approval history remains visible.
+The records below model revisions awaiting approval in the fictional workflow. Maintain a separate entry for each revision and retain earlier entries when new revisions are added so that the change and approval history remains visible.
 
-| Record | Document | Proposed change | Status |
+| Record | Document | Proposed change | Example workflow status |
 | --- | --- | --- | --- |
-| REV-001 | [Standard 1234](security-standard-1234.md) | Introduce the fictional standard and shared governance note. | Draft; approval pending. |
-| REV-002 | [Secure Data Handling](secure-data-handling.md) | Add the shared governance note. Existing guidance remains unchanged. | Draft; approval pending. |
-| REV-003 | [Secrets Vault](vault-secrets-management.md) | Connect existing standard and storage references to the new standard; add the shared governance note. Existing procedures remain unchanged. | Draft; approval pending. |
+| REV-001 | [Standard 1234](security-standard-1234.md) | Introduce the fictional standard and shared governance note. | Awaiting approval (example). |
+| REV-002 | [Secure Data Handling](secure-data-handling.md) | Add the shared governance note. Existing guidance remains unchanged. | Awaiting approval (example). |
+| REV-003 | [Secrets Vault](vault-secrets-management.md) | Connect existing standard and storage references to the new standard; add the shared governance note. Existing procedures remain unchanged. | Awaiting approval (example). |
 
-### Approval and publication records
+### Example approval and publication records
 
 The version field identifies the exact reviewed document, such as an immutable Git commit and file path. The approval evidence must identify that version. A document changed after approval must be reviewed again before publication.
 
-| Record | Reviewed version | Approval evidence | Publication date |
+| Record | Reviewed version | Approval evidence | Release date in example |
 | --- | --- | --- | --- |
-| REV-001 | Not assigned | Pending | Not published |
-| REV-002 | Not assigned | Pending | Not published |
-| REV-003 | Not assigned | Pending | Not published |
+| REV-001 | Awaiting review | Pending in example | Not scheduled |
+| REV-002 | Awaiting review | Pending in example | Not scheduled |
+| REV-003 | Awaiting review | Pending in example | Not scheduled |
 
 ## Recording a revision
 

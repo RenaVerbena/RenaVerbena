@@ -2,7 +2,7 @@
 
 This standard defines the requirements for storing, accessing, and maintaining service secrets. Use it to determine which storage service is appropriate and what safeguards must be in place before a service handles secrets.
 
-> **Fictional portfolio example.** The control, services, owner roles, and approval process illustrate how a standard connects to supporting guidance and procedures. This revision is a draft; no operational approval is claimed.
+> **Published portfolio example.** The control, services, owner roles, and governance records are fictional. The approval status below is part of the example workflow.
 
 | Document field | Value |
 | --- | --- |
@@ -10,8 +10,9 @@ This standard defines the requirements for storing, accessing, and maintaining s
 | Control ID | SEC-1234 |
 | Document owner | Security Governance Lead (example role) |
 | Audience | Service owners, engineers, and security reviewers |
-| Status | Draft for portfolio review |
-| Effective date | Not effective; approval pending |
+| Portfolio status | Published example |
+| Example workflow status | Awaiting control-owner approval (fictional) |
+| Effective date in example | Set after fictional approval |
 | Review cycle | Quarterly after approval, and when control requirements or supported services change |
 
 ## Control SEC-1234
