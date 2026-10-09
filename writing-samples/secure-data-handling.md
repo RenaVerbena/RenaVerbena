@@ -20,7 +20,7 @@ These guidelines apply to any information that carries risk if mishandled. This 
 
 ## Data lifecycle and security controls
 
-Data moves through predictable stages during its useful life, and each stage introduces different risks. The controls described below address those risks at each stage. Skipping protections at any one stage can undermine the security of the whole system. For example, data that is encrypted at rest can still be exposed if transmitted carelessly, and data that is shared securely can still pose risk if it's retained longer than necessary. A lifecycle approach supports continuous protection by turning broad security goals into concrete actions at each stage, such as classifying data at creation, encrypting it before transfer, and deleting it at the end of retention.
+Data moves through predictable stages during its useful life, and each stage introduces different risks. The controls described below address those risks at each stage. Skipping protections at any one stage can undermine the security of the whole system. For example, data that is encrypted at rest can still be exposed if transmitted carelessly, and data that is shared securely can still pose risk if it's retained longer than necessary. A lifecycle approach supports continuous protection by turning broad security goals into concrete actions at defined points, such as classifying data at creation, encrypting it before transfer, and deleting it at the end of retention.
 
 ### Data collection
 
@@ -91,7 +91,7 @@ Many of the most serious data security incidents are caused by preventable mista
 
 ## Roles and responsibilities
 
-Secure data handling works only when everyone with access to data understands their role in protecting it. Secure data handling requires clear responsibilities across the organization. The table below outlines the primary responsibilities by role.
+Secure data handling works only when everyone with access to data understands their role in protecting it. The table below outlines the primary responsibilities by role.
 
 | Role | Responsibility |
 |---|---|
