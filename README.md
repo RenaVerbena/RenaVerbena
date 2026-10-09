@@ -63,17 +63,23 @@ that help keep the content consistent.
 ### VSim (Tech-X Corporation)
 
 Multiphysics simulation platform used by NASA, ESA, and research
-institutions worldwide. Sole writer and editor of the
-[public documentation](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimDocumentation.html)
-during my tenure; links below are the version I owned.
+institutions worldwide. As the sole technical writer and editor, I owned
+the entire [VSim documentation set](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimDocumentation.html)
+during my tenure, including the User Guide, Reference Manual, examples,
+customization guide, and installation and release documentation. The
+links below point to the version I managed.
 
-- [VSim User Guide](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimUserGuide/VSimUserGuide.html) -
-  revised more than 50% of the guide, running every procedure myself to
-  create the instructions and screenshots. The
-  [Open Simulation](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimUserGuide/vsimComposerFileMenu.html#open-simulation)
-  and
-  [Setup Window for Visual-setup Simulations](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimUserGuide/vsimComposerVisualSetupWindow.html)
-  sections are 100% my work.
+I revised more than 50% of the User Guide, running the procedures myself
+to develop the instructions and screenshots.
+
+**Selected samples:**
+
+- [Running in Parallel from VSimComposer](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimUserGuide/runVorpalParallel.html) -
+  guidance for enabling parallel execution, selecting processor counts,
+  and understanding licensing limits and how long settings persist.
+- [Troubleshooting Electrostatic Simulations](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimUserGuide/troubleshooting_es_sim.html) -
+  guidance connecting simulation symptoms to causes and corrective
+  actions, with a code example explaining the problem, result, and solution.
 - [VSim Reference: Analyzers](https://txcorp.com/images/docs/vsim/10.1.0-r2780/VSimReferenceManual/VSimReferenceManual.html#analyzers) -
   reformatted the entire section for clarity and documented the new
   analyzers (roughly 75% of the content), pulling parameters and options

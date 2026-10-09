@@ -109,7 +109,7 @@ For content design, start with three building blocks:
 | **Attributes** | Named characteristics whose values describe individual things. | A procedure's identifier, version, status, and review date. |
 | **Relationships** | Named connections between things, with a defined meaning and direction. | A procedure **applies to** a service, **supports** a control, or **requires** another task. |
 
-A class is a type, not a particular object: `Procedure` is a class; the Vault onboarding procedure is an instance of that class. In OWL terminology, both attributes and relationships are kinds of properties.
+A class defines a type, such as `Procedure`. The Vault onboarding procedure is an instance of that class. In OWL terminology, both attributes and relationships are kinds of properties.
 
 For the connected samples, a model could define the following relationships:
 
@@ -134,7 +134,7 @@ For practical explanations, see [Stardog's guide to classes, relationships, and 
 
 ## Make metadata useful to the workflow
 
-For a documentation collection, define required fields, allowed values, and what consumes them. This illustrative YAML record describes the Vault procedure; it is a proposed extension, not metadata currently attached to the sample.
+For a documentation collection, define required fields, allowed values, and what consumes them. The following illustrative YAML record proposes metadata for the Vault procedure.
 
 ```yaml
 document_id: vault-secrets-management

@@ -40,7 +40,7 @@ Determine the secret's purpose and restrictions before selecting a storage servi
 | External-customer secrets | Do not store in this internal Secrets Vault. Obtain the approved destination and handling requirements from the control owner before onboarding. |
 | Purpose or storage eligibility is unclear | Obtain a classification and storage decision from the control owner before uploading the secret. |
 
-These eligibility rules are fictional organizational requirements, not product limitations of HashiCorp Vault.
+These eligibility rules define approved storage choices within the fictional organization. Consult HashiCorp's documentation for the product's capabilities.
 
 ## Requirements
 
@@ -61,7 +61,7 @@ An exception requires a documented reason, affected service, risk assessment, co
 
 For a documentation revision, the document owner must review accuracy and assess effects on related documents. A change to a control requirement also requires the control owner's approval. Record the affected document, exact version, change summary, approval evidence, and publication date in the [revision register](security-controls-health-dashboard.md#revision-register). Review related guidance before publication so that requirements and instructions remain consistent.
 
-Record evidence references, not secret values. A documentation approval establishes approval of that revision; it does not establish that every service has implemented the control.
+Record evidence references that exclude secret values. A documentation approval establishes approval of that revision; it does not establish that every service has implemented the control.
 
 ---
 

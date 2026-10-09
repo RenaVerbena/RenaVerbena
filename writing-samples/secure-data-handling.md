@@ -2,7 +2,7 @@
 
 ## Overview
 
-Organizations need to practice secure data handling not only to meet regulatory requirements, but to protect the people whose information they hold. A single breach can undo years of customer trust, so sensitive information must be protected from the moment it's created until the moment it's destroyed. Without consistent controls at each stage of the data lifecycle, organizations expose themselves to data breaches, regulatory penalties, and reputational damage.
+Secure data handling protects the people whose information an organization holds and helps the organization meet regulatory requirements. A single breach can undo years of customer trust, so sensitive information must be protected from the moment it's created until the moment it's destroyed. Without consistent controls at each stage of the data lifecycle, organizations expose themselves to data breaches, regulatory penalties, and reputational damage.
 
 This article describes the controls that protect data at each stage of its lifecycle: collection, classification, storage, access, transmission, usage, sharing, and retention and disposal. It also covers logging and monitoring, the most common handling mistakes, who is responsible for what, and how these controls map to major regulations and frameworks.
 
@@ -20,7 +20,7 @@ These guidelines apply to any information that carries risk if mishandled. This 
 
 ## Data lifecycle and security controls
 
-Data moves through predictable stages during its useful life, and each stage introduces different risks. The controls described below address those risks at each stage. Skipping protections at any one stage can undermine the security of the whole system. For example, data that is encrypted at rest can still be exposed if transmitted carelessly, and data that is shared securely can still pose risk if it's retained longer than necessary. A lifecycle approach not only provides continuous protection, but it imposes discipline by turning broad security goals into concrete actions at defined points, such as classifying data at creation, encrypting it before transfer, and deleting it at end of retention.
+Data moves through predictable stages during its useful life, and each stage introduces different risks. The controls described below address those risks at each stage. Skipping protections at any one stage can undermine the security of the whole system. For example, data that is encrypted at rest can still be exposed if transmitted carelessly, and data that is shared securely can still pose risk if it's retained longer than necessary. A lifecycle approach supports continuous protection by turning broad security goals into concrete actions at each stage, such as classifying data at creation, encrypting it before transfer, and deleting it at the end of retention.
 
 ### Data collection
 
@@ -91,7 +91,7 @@ Many of the most serious data security incidents are caused by preventable mista
 
 ## Roles and responsibilities
 
-Secure data handling works only when everyone with access to data understands their role in protecting it. Security isn't solely the responsibility of a dedicated security team; it requires clear ownership and accountability distributed across the organization. The table below outlines the primary responsibilities by role.
+Secure data handling works only when everyone with access to data understands their role in protecting it. Secure data handling requires clear responsibilities across the organization. The table below outlines the primary responsibilities by role.
 
 | Role | Responsibility |
 |---|---|
@@ -102,7 +102,7 @@ Secure data handling works only when everyone with access to data understands th
 
 ## Regulations and frameworks
 
-The controls in this article aren't tied to any single framework. They represent common ground across the standards most organizations answer to, and each control can be mapped to one or more requirements in the frameworks below. Which frameworks apply depends on the type of data an organization handles, the industries it serves, and the jurisdictions it operates in.
+The controls in this article address requirements shared across several security and compliance frameworks. Each control can be mapped to one or more requirements in the frameworks below. Which frameworks apply depends on the type of data an organization handles, the industries it serves, and the jurisdictions it operates in.
 
 - **General Data Protection Regulation (GDPR):** Governs the handling of personal data for individuals in the European Union.
 - **Health Insurance Portability and Accountability Act (HIPAA):** Sets standards for protecting health information in the United States.
