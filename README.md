@@ -23,14 +23,13 @@ My most recent work is behind enterprise access controls at Coinbase
 Security Platform Engineering, Algonquin Power, and Salesforce Security.
 
 **Highlights:**
-knowledge management frameworks, editorial standards, AI-assisted
-documentation systems, developer guidance for frictionless
+UI guidelines and content standards, knowledge management frameworks, editorial standards, 
+AI-assisted documentation systems, developer guidance for frictionless
 implementation of security controls, content optimization so support
 bots and AI assistants surface the right answer, and a documentation
 health dashboard giving leadership visibility into content ownership
 and freshness. I'm glad to discuss my editorial approach and
-documentation processes. The security specifics stay confidential. The
-samples below are public.
+documentation processes. The security specifics stay confidential.
 
 ### UI Guidelines and Content Standards
 
