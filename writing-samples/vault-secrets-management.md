@@ -129,7 +129,7 @@ curl -X POST https://vault.example.com/v1/secret/data/myapp/config \
 
 * Store one logical group of secrets per path (for example, `myapp/config` for app settings and `myapp/db` for database credentials).
 * Never write secrets into logs, shell history, or CI output. Load values from a file or environment variable instead of typing them inline.
-* Do not store external-customer secrets or HSM-required key material here. See the note at the top of this page.
+* Do not store external-customer secrets or HSM-required key material here. Check the [secret storage eligibility requirements](security-standard-1234.md#storage-eligibility) before uploading.
 
 ---
 
