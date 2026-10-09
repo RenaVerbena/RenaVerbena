@@ -7,6 +7,15 @@ planning through publication and ongoing governance. My work combines
 hands-on technical writing, UX principles, and AI-assisted knowledge
 systems for enterprise software, security, and scientific products.
 
+### UI Guidelines and Content Standards
+
+- [Sharing and permissions UI guidelines](https://github.com/RenaVerbena/sharing-permissions-docs) -
+  guidelines for one feature of a fictional collaboration product: a
+  component page, the pattern built on it, a feature vocabulary, and the
+  contributor guide that keeps them aligned. Shows page templates, content
+  guidelines with examples, accessibility criteria, and metadata for
+  governance and search.
+
 ## Professional Background
 
 I bring 12+ years of experience making complex technical information clear,
