@@ -17,6 +17,23 @@ work also includes AI-assisted writing and editing workflows, prompt
 frameworks, automated quality checks, and content structured for reliable
 retrieval.
 
+## Program Management
+
+Documentation and knowledge programs need the same discipline as any
+technical program: scoped goals, stakeholder alignment, a roadmap with
+quarterly OKRs and KPIs, release readiness, and reporting that gives
+leadership a clear view of progress and risk. Artifacts I've produced in
+real programs include roadmaps and OKR/KPI reports, a documentation health
+dashboard, release and communications checklists, and an optimization
+playbook for an AI support bot driven by root cause analyses of failed
+questions. The sample below shows the approach with fictional content.
+
+- [AI Support Bot Program: Plan and Optimization Playbook](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/ai-support-bot-plan.md) -
+  a program plan for configuring, measuring, and improving an AI support
+  bot on top of the connected documentation set: scope and roles, phased
+  plan with risks, source scoping and content readiness, a configuration
+  decision log, the triage and RCA loop, KPIs, and a release checklist.
+
 ## Work Samples
 
 My most recent professional work is behind enterprise access controls at Coinbase, Algonquin Power, and Salesforce.
