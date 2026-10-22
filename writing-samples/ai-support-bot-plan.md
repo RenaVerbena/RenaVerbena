@@ -33,7 +33,7 @@ place in the documentation. The documentation already covers most of these quest
 
 ### Goals
 
-- Resolve routine questions in the channel from verified documentation, with citations, only flagging a support engineer for help if the question can't be answered by the documentation.
+- Resolve routine questions in the channel from verified documentation, with citations, only flagging a support engineer for help if the question can't be answered by the documentation or needs an engineer to act.
 - Give support engineers, including newer engineers covering evening and weekend shifts, a reliable
   first answer to work from.
 - Turn every failed answer into a content fix, a configuration fix, or a documented gap, so the
