@@ -63,7 +63,7 @@ documentation processes. The security specifics stay confidential.
   a practical guide to content structure, reuse, metadata, and governance
   for readers and AI applications, using the connected samples below.
 
-### Content Governance Examples
+### Content Governance and Security Writing Examples
 
 These connected fictional examples show how a standard relates to guidance
 and procedures, with document ownership, review states, and revision tracking
@@ -72,6 +72,12 @@ that help keep the content consistent.
 - [Standard 1234: Secret Storage and Handling](writing-samples/security-standard-1234.md) -
   control requirements, storage eligibility, and links to supporting guidance
   and procedures.
+- [Secure Data Handling](writing-samples/secure-data-handling.md) -
+  lifecycle-based handling guidelines whose secret-handling sections support
+  the standard.
+- [Secret and Key Management with Secrets Vault](writing-samples/vault-secrets-management.md) -
+  the onboarding, access, storage, and deletion procedure for the fictional
+  service, with eligibility restrictions placed before the actions they govern.
 - [Security Controls Health Dashboard](writing-samples/security-controls-health-dashboard.md) -
   document owners, review status, and revision records for the connected
   documentation set.
@@ -103,11 +109,6 @@ to develop the instructions and screenshots.
 
 ### More Samples
 
-- [Secure Data Handling Guidelines](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/secure-data-handling.md) -
-  demonstration piece covering lifecycle-based data protection
-  controls
-- [Secrets Vault Documentation Sample](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md) -
-  demonstration piece written for a fictitious secrets vault
 - [Boltline Help Center](https://help.boltline.com/category/boltline/index.html) -
   documentation for enterprise workflow software used in engineering and
   manufacturing (Docusaurus). The help center recently moved behind a login;
