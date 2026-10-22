@@ -10,6 +10,11 @@ measurement fit together, and who owns each part.
 > and hosts the bot framework and retrieval integration. The program owner configures it, owns the
 > content it draws on, and runs the measurement and improvement loop.
 
+**Example stage: pre-launch.** The connected dashboard currently records revisions awaiting approval.
+The audit below records the remaining readiness work. Published portfolio pages are available for
+review, but that does not mean they are approved sources for the fictional bot. Source-selection
+rules, configuration settings, and launch criteria describe the intended operating state.
+
 **On this page**
 
 - [1. Program overview](#1-program-overview)
@@ -125,21 +130,30 @@ R: responsible, A: accountable, C: consulted, I: informed.
 | Support engineers stop checking the bot's answers | Medium | Medium | Resolution check routes unresolved threads to a support engineer with context. Sample audits in weekly triage. |
 | Engineers bypass the bot and message support engineers directly | Medium | Low | Channel pin and announcement. Support engineers redirect to the channel. Measure direct messages during the pilot. |
 | Scope expands to other services before their content is ready | Medium | High | Expansion gate: readiness audit required before any new source is added. |
-| The bot surfaces content to someone who cannot open the source | Low | High | Retrieval honors source permissions (CFG-09). Verify with a test user in the dry run. |
+| A channel reply reveals content that the asker can access but another channel member cannot | Low | High | Channel-visible answers use sources authorized for the channel audience. Deliver restricted answers privately, subject to the asker's permissions (CFG-09). Test with channel members who have different source access. |
 
 ## 3. Source scoping and content readiness
 
 ### Allowed sources
 
-Only pages with `status: published` and a current review date in the [Security Controls Health
+At launch, only approved revisions with `status: published` and a current review date are eligible
+for indexing. The [Security Controls Health
 Dashboard](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/security-controls-health-dashboard.md)
-are indexed. The dashboard's review status is the gate.
+records the approval and publication evidence. Its current example records are awaiting approval,
+so the controlled documents are not yet eligible. The table below identifies candidate sources and
+the intended scope after readiness work and approval.
+
+During Phase 1, document owners add the required metadata and the program owner records the approved
+version, approval evidence, publication date, and next review date in the dashboard. The platform
+team configures the source-selection check to read these records and exclude unapproved revisions;
+the status text alone does not control indexing. A review is current only while its due date has not
+passed and no relevant control or service change has triggered another review.
 
 | Source | Included | Excluded | Reason |
 | --- | --- | --- | --- |
 | [Standard 1234: Secret Storage and Handling](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/security-standard-1234.md) | Whole page | None | Defines control requirements and storage eligibility. |
 | [Secure Data Handling](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/secure-data-handling.md) | Whole page | None | Explains the handling principles behind the standard. |
-| [Secret and Key Management with Secrets Vault](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md) | Published sections | Sections marked as not yet published | The procedure engineers follow. Unfinished sections would produce incomplete answers. |
+| [Secret and Key Management with Secrets Vault](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/vault-secrets-management.md) | Whole approved page | Unapproved revisions | The current sample has no sections marked unpublished. Include the complete approved procedure, with its prerequisites and restrictions. |
 | [Security Controls Health Dashboard](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/security-controls-health-dashboard.md) | Document owners table | Revision register | Lets the bot answer "who approves a change." Revision records are workflow state, not guidance. |
 | Channel history | None | All | Unverified and often outdated. |
 | Design documents and tickets | None | All | Not approved guidance. |
@@ -163,12 +177,15 @@ trust](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/desi
 
 ### Readiness audit record
 
+This pre-launch audit records the current samples. Recheck each page against the full checklist
+after its fixes; mark it ready only when the reviewed revision is approved and published.
+
 | Document | Checklist result | Fix needed | Owner | Status |
 | --- | --- | --- | --- | --- |
-| Standard 1234 | Pass | None | Security Governance Lead | Ready |
-| Secure Data Handling | Pass with notes | Add descriptive summaries to two sections. | Security Documentation Lead | In progress |
-| Secrets Vault procedure | Pass with notes | Keep the storage restriction visible in the onboarding section. Mark unfinished sections so they are excluded from indexing. | Secrets Platform Lead | In progress |
-| Health dashboard (owners table) | Pass | None | Security Governance Lead | Ready |
+| Standard 1234 | Not ready | Complete the required metadata, including the review date. Obtain approval for the exact revision and record publication in the dashboard. | Security Governance Lead | Awaiting readiness work and approval |
+| Secure Data Handling | Not ready | Add the required metadata and task-specific summaries where needed. Obtain approval for the exact revision and record publication in the dashboard. | Security Documentation Lead | Awaiting readiness work and approval |
+| Secrets Vault procedure | Not ready | Add the required metadata. Keep eligibility restrictions with the onboarding and write steps. Obtain approval for the exact revision and record publication in the dashboard. | Secrets Platform Lead | Awaiting readiness work and approval |
+| Health dashboard (owners table) | Not ready | Add the source metadata and a review date for the owners table. Record approved document versions, publication dates, and next review dates as approvals occur. Verify the audience permitted to receive ownership information. | Security Governance Lead | Awaiting readiness work and review |
 
 ## 4. Configuration decision log
 
@@ -183,9 +200,9 @@ one and records the reason, so later changes can be traced to a decision.
 | CFG-04 | Grounding rule | Answer only from retrieved passages in allowed sources. No general knowledge. | Prevents plausible answers that conflict with the standard. | Control owner approves |
 | CFG-05 | Fallback | When no verified passage supports an answer, say so and offer escalation. Never guess. | A visible "no verified answer" is a documentation signal. A guess is a risk. | Program owner |
 | CFG-06 | Resolution check | After answering, ask whether the question is resolved. The asker's reply drives routing. | Produces the resolution data behind the KPIs. | Program owner |
-| CFG-07 | Escalation | Unresolved questions and action requests route to the support engineer on rotation with the thread, the bot's answer, and the sources it used. | The support engineer starts with context instead of from zero. | Service owner approves |
+| CFG-07 | Escalation | Unresolved questions and action requests route to the support engineer on rotation with the thread, answer, and sources they are authorized to access. Keep restricted context in an authorized private conversation; do not copy it into the public channel. | Provides useful context without widening access to source content. | Service owner approves |
 | CFG-08 | Tone | Direct, concise technical tone. No filler. | Matches the documentation style guide. | Program owner |
-| CFG-09 | Permissions | Retrieval honors source permissions. The bot does not surface content to a user who cannot open the source. | Required for any security documentation. | Platform Tools implements |
+| CFG-09 | Permissions and response visibility | Channel-visible answers use only sources authorized for everyone who can view that channel, including guests. If that audience authorization cannot be established, deliver the answer privately to the asker using only sources they can access, or fall back to an authorized private escalation. Apply the same rule to excerpts and escalation context. | The asker's access does not establish permission for the channel audience to receive the answer. | Platform Tools implements |
 | CFG-10 | Logging | Keep the question, retrieved passages, answer, and resolution outcome for triage. Retention per policy. | Root cause analysis needs the retrieved passages, not just the answer. | Program owner |
 
 ## 5. Optimization playbook
@@ -282,7 +299,7 @@ waiting on a support engineer.
 | Dry run: the baseline question set passes the agreed threshold. | Program owner | |
 | Fallback triggers on out-of-scope questions. | Program owner | |
 | Escalation delivers the thread, answer, and sources to the support engineer on rotation. | Service owner | |
-| Permissions verified with a test user who cannot open a restricted source. | Platform Tools | |
+| Permissions verified with two channel members: the asker can open a restricted source and the other member cannot. Confirm that restricted content is absent from the channel reply and visible only in an authorized private response or escalation. Also test a requester without source access and a channel with guests. | Platform Tools | |
 | Logging and retention confirmed. | Platform Tools | |
 | Support rotation briefed and the flagging method agreed. | Service owner | |
 | Announcement and channel pin drafted and approved. | Program owner | |
@@ -291,7 +308,7 @@ waiting on a support engineer.
 ### Rollout communications
 
 - Announcement in `#support-channel` and the engineering updates channel: what the bot does, what it
-  does not do, how escalation works, and how to give feedback.
+  does not do, when answers are private, how escalation works, and how to give feedback.
 - Channel pin: a one-paragraph guide with a link to this plan.
 - Office hours during the first two weeks of the pilot.
 - Week-4 update with the first KPIs and what changed as a result.
