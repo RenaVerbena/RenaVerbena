@@ -19,8 +19,7 @@ retrieval.
 
 ## Work Samples
 
-My most recent work is behind enterprise access controls at Coinbase
-Security Platform Engineering, Algonquin Power, and Salesforce Security.
+My most recent professional work is behind enterprise access controls at Coinbase, Algonquin Power, and Salesforce.
 
 **Highlights:**
 UI guidelines and content standards, knowledge management frameworks, editorial standards, 
