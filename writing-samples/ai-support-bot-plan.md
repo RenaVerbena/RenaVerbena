@@ -319,5 +319,5 @@ waiting on a support engineer.
   revision register triggers reruns.
 - [Designing content people (and AI) can find, understand, and
   trust](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/designing-content-for-people-and-ai.md)
-  explains the content design principles behind the readiness checklist.enaVerbena/RenaVerbena/blob/main/writing-samples/security-controls-health-dashboard.md) supplies ownership and review status. The bot indexes only published, reviewed documents, and the revision register triggers reruns.
-- [Designing content people (and AI) can find, understand, and trust](https://github.com/RenaVerbena/RenaVerbena/blob/main/writing-samples/designing-content-for-people-and-ai.md) explains the content design principles behind the readiness checklist.
+  explains the content design principles behind the readiness checklist.
+  
