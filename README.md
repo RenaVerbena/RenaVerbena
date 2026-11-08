@@ -1,6 +1,6 @@
 # Jorena Collins
 
-**Technical Writer, Editor, & Content Strategist | Program Management | Documentation Architecture | Cybersecurity**
+**Technical Writer, Editor, & Content Strategist | Program Management | Documentation Architecture | AI-Driven Knowledge Systems | Cybersecurity**
 
 I make complex technical and security information clear, accurate, and easy
 to find and use. I lead documentation and knowledge management programs from
@@ -13,6 +13,17 @@ My most recent professional work is behind enterprise access controls at
 Coinbase, Algonquin Power, and Salesforce. The samples below use fictional
 companies to show the approach. I'm glad to discuss my editorial approach and
 documentation processes. The security specifics stay confidential.
+
+## Documentation programs and AI-ready content
+
+- **[AI Support Bot Program: Plan and Optimization Playbook](writing-samples/ai-support-bot-plan.md)** -
+  a program plan for configuring, measuring, and improving an AI support bot
+  on top of the secrets management set below: scope and roles, phased plan
+  with risks, a configuration decision log, the triage and RCA loop, KPIs,
+  and a release checklist.
+- **[Designing content people (and AI) can find, understand, and trust](writing-samples/designing-content-for-people-and-ai.md)** -
+  a practical guide to content structure, reuse, metadata, and governance for
+  readers and AI applications.
 
 ## Security governance
 
@@ -28,17 +39,6 @@ documentation processes. The security specifics stay confidential.
   [Secure Data Handling](writing-samples/secure-data-handling.md) ·
   [Secret and Key Management with Secrets Vault](writing-samples/vault-secrets-management.md) ·
   [Security Controls Health Dashboard](writing-samples/security-controls-health-dashboard.md)
-
-## Documentation programs and AI-ready content
-
-- **[AI Support Bot Program: Plan and Optimization Playbook](writing-samples/ai-support-bot-plan.md)** -
-  a program plan for configuring, measuring, and improving an AI support bot
-  on top of the secrets management set above: scope and roles, phased plan
-  with risks, a configuration decision log, the triage and RCA loop, KPIs,
-  and a release checklist.
-- **[Designing content people (and AI) can find, understand, and trust](writing-samples/designing-content-for-people-and-ai.md)** -
-  a practical guide to content structure, reuse, metadata, and governance for
-  readers and AI applications.
 
 ## Product and scientific documentation
 
