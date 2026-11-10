@@ -10,9 +10,8 @@ quarterly OKRs and KPIs, release readiness, and reporting that gives
 leadership a clear view of progress and risk.
 
 My most recent professional work is behind enterprise access controls at
-Coinbase, Algonquin Power, and Salesforce. The samples below use fictional
-companies to show the approach. I'm glad to discuss my editorial approach and
-documentation processes. The security specifics stay confidential.
+Coinbase, Algonquin Power, and Salesforce. The security samples below are fictional and live here in GitHub repos.
+The Tech-X, Boltline, and VA samples are real and live on the internet.
 
 ## Documentation programs and AI-ready content
 
@@ -28,8 +27,8 @@ documentation processes. The security specifics stay confidential.
 ## Security governance
 
 - **[Cybersecurity governance document set](https://github.com/RenaVerbena/norsewind-security-docs)** -
-  a policy, a standard, a procedure, and a runbook for one domain (privileged
-  access), so you can follow a single requirement from board-approved intent
+  a policy, a standard, a procedure, and a runbook shown for one domain, privileged access, so you can follow a
+  single requirement from board-approved intent
   down to the steps an on-call analyst takes at 2 a.m. Each document carries
   ownership, review cycle, and framework control mappings.
 - **Secrets management set** - how a standard relates to its guidance and
